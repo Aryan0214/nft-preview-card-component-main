@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+  margin: 0 auto;
+  padding: 0;
+  font-family:'Outfit', sans-serif;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    max-width: 2500px; 
+    margin: auto;
+    margin-top: 5%;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px;
+    padding-right: 0.1rem;
+    padding-left: 0.9rem;
+    border-radius: 18px;
+}
+.head-img img{
+    width: 80%;
+    height: 80%;
+    padding: 0.8rem;
+    margin-left: 10px;
+    border-radius: 18px;
+}
+.image-avatar{
+    width: 12%;
+    height: 12%;
+}
+.image-avatar{
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.heading{
+    color: #fff;
+    font-size: 20px;
+}
+.flex-group{
+    display: flex;
+    gap: 6rem;
+    font-size: 16px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding: 1rem; 
+    margin-top: -30px;
+}
+.time-cont img{
+    width: 16%;
+}
+.eth-cont img{
+    width: 12%;
+}
+.eth-cont span{
+    margin-left: 4px;
+    color: hsl(178, 100%, 50%);
+    font-size: 13px;
+}
+.time-cont span{
+    margin-left: 3px;
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+.name-data{
+    display: flex;
+    margin-left: -15px;
+    margin-top: -20px;
+}
+.name-data h2 {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: -19px;
+   color:hsl(215, 51%, 70%);
+}
+.main-content{
+    margin-top: -20px;
+    padding-left: 20px;
+}
+.para{
+    margin-top: 20px;
+    color:hsl(215, 51%, 70%);
+    opacity: 0.8;
+}
+.created span{
+    color: #fff;
+}
+.heading:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.created span:hover{
+   color: hsl(178, 100%, 50%);
+   cursor: pointer; 
+}
+.head-img div{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 60%);
+    width: 17.7%;
+    height: 38%;
+    margin-left: 24px;
+    margin-top: -19%;
+    border-radius: 19px;
+    opacity: 0;
+}
+.head-img div:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.head-img .view{
+    width: 40px;
+    height: 40px;
+    margin-top: 37%;
+    margin-left: 34%;
+}
